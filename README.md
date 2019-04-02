@@ -38,4 +38,15 @@
 * [CPU 中央处理器](./project/05/CPU.hdl)
 * [Computer 计算机](./project/05/Computer.hdl)
 
+### 汇编编译器
+
+* [无符号的汇编编译器](./project/06/assembler/src/assembler/)
+* [汇编编译器](./project/06/assembler/src/assembler2/)
+    * [Parser.java](./project/06/assembler/src/assembler2/Parser.java "分词,添加符号表") 语法分析器
+    * [Code.java](./project/06/assembler/src/assembler2/Code.java "助记符字典") 汇编语言助记符译码器
+    * [SymbolTable.java](./project/06/assembler/src/assembler2/SymbolTable.java "自定义字典") 符号表
+    * [Assembler.java](./project/06/assembler/src/assembler2/Assembler.java "主控逻辑") 汇编编译器入口类
+* 测试程序
+    * ``` java assembler2.Assembler C:\Users\11054\Desktop\nand2tetris\project\06\pong\Pong.asm```
+
 
