@@ -1,6 +1,6 @@
 # nand2tetris
 
-> [官网](https://www.nand2tetris.org/ "") [coursera视频](https://www.coursera.org/learn/build-a-computer "") [工具包](https://www.nand2tetris.org/software "") [参考](https://reionchan.github.io/2016/05/28/nand2tetris-zh_CN/ "")
+> [官网](https://www.nand2tetris.org/ "") [coursera视频](https://www.coursera.org/learn/build-a-computer "") [工具包](https://www.nand2tetris.org/software "") [参考@ReionChan](https://reionchan.github.io/2016/05/28/nand2tetris-zh_CN/ "")
 
 ## 目录
 
@@ -49,4 +49,12 @@
 * 测试程序
     * ``` java assembler2.Assembler C:\Users\11054\Desktop\nand2tetris\project\06\pong\Pong.asm```
 
+### 虚拟机-上篇
 
+* [VM翻译器](./project/07/VMtranslator/src/vmtranslator2/) 算术逻辑和内存存取
+    * [Parser.java](./project/07/VMtranslator/src/vmtranslator2/Parser.java) VM语法分析
+    * [CodeWriter.java](./project/07/VMtranslator/src/vmtranslator2/CodeWriter.java ) VM语法--->汇编
+    * [VMTranslator.java](./project/07/VMtranslator/src/vmtranslator2/VMTranslator.java) VM翻译入口
+* 测试
+    * 堆栈运算
+    * 内存访问

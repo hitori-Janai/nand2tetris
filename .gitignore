@@ -27,3 +27,5 @@ doc/*.txt
 doc/**/*.pdf
 
 project/06/assembler/bin
+project/07/VMtranslator/bin
+project/07/VMtranslator/src/app
