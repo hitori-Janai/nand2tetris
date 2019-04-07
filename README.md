@@ -58,3 +58,12 @@
 * 测试
     * 堆栈运算
     * 内存访问
+
+### 虚拟机-下篇
+
+* [VM翻译器-完整版](./project/08/VMtranslator/src/vmtranslator/)
+    * [Parser.java](./project/08/VMtranslator/src/vmtranslator/Parser.java) VM语法分析
+    * [CodeWriter.java](./project/08/VMtranslator/src/vmtranslator/CodeWriter.java ) VM语法--->汇编
+    * [VMTranslator.java](./project/08/VMtranslator/src/vmtranslator/VMTranslator.java) VM翻译入口
+
+* [测试结果](./project/08/)
