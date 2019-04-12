@@ -13,7 +13,7 @@
 
 // Put your code here.
 @i
-M=0
+M=0 //保存变黑的格子数,线性连续增长
 
 (LOOP)
 @24576

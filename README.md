@@ -31,6 +31,7 @@
 ### 机器语言
 * [Mult.asm 乘法程序](./project/04/mult/mult.asm)
 * [Fill.asm I/O处理程序](./project/04/fill/Fill.asm)
+    > ![](./project/04/fill/Fill_Screen.gif "[按键内存区域]数值随着按键的起落即时变化.理解键盘输入是怎么回事.")
 
 ### 计算机体系结构
 
@@ -71,7 +72,14 @@
 ### Jack高级语言及程序样例
 
 * [HelloWorld](./project/09/HelloWorld/)
-    ![](./project/09/HelloWorld/Hello,Jack_Hack_World.gif)
+   > ![](./project/09/HelloWorld/Hello,Jack_Hack_World.gif)
 
 * [Square](./project/09/Square/) 样例
-    ![](./project/09/Square/Square.gif)
+   > ![](./project/09/Square/Square.gif)
+
+### JACK编译器-上
+
+* [Jack语法分析器](./project/10/JackCompiler/src "几乎没有语法纠错")
+    * [CompilationEngine.java](./project/10/JackCompiler/src/jackcompiler/CompilationEngine.java "机械操作") 语法分析引擎 
+    * [JackTokenizer.java](./project/10/JackCompiler/src/jackcompiler/JackTokenizer.java "提取字符,尤其是粘在一块的") 字元转换器
+    * [JackAnalyzer.java](./project/10/JackCompiler/src/jackcompiler/JackAnalyzer.java ) 语法分析器入口

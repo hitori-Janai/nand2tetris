@@ -30,3 +30,5 @@ project/06/assembler/bin
 project/07/VMtranslator/bin
 project/07/VMtranslator/src/app
 project/08/VMtranslator/bin
+project/10/JackCompiler/bin
+project/10/JackCompiler/src/app
