@@ -4,6 +4,8 @@
 
 ## 目录
 
+* 硬件体系--> [布尔逻辑](#布尔逻辑) [布尔算术](#布尔算术) [时序逻辑](#时序逻辑) [机器语言](#机器语言) [计算机体系结构](#计算机体系结构)
+* 软件体系--> [汇编编译器](#汇编编译器) [虚拟机](#虚拟机-上篇) [JACK编译器](#JACK编译器-上)
 
 ### 布尔逻辑
 
@@ -93,7 +95,7 @@
     * [VMWriter.java](./project/11/JackCompiler/src/jackcompiler/VMWriter.java) VM命令输出器
     * [JackCompiler.java](./project/11/JackCompiler/src/jackcompiler/JackCompiler.java) 编译器入口
 
-* [测试单元](./project/10/)
+* [测试单元](./project/11/)
     * Seven 
     * ConvertToBin 
     * Square [构造方法 方法 成员字段 方法调用]
