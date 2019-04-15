@@ -83,3 +83,20 @@
     * [CompilationEngine.java](./project/10/JackCompiler/src/jackcompiler/CompilationEngine.java "机械操作") 语法分析引擎 
     * [JackTokenizer.java](./project/10/JackCompiler/src/jackcompiler/JackTokenizer.java "提取字符,尤其是粘在一块的") 字元转换器
     * [JackAnalyzer.java](./project/10/JackCompiler/src/jackcompiler/JackAnalyzer.java ) 语法分析器入口
+
+### JACK编译器-下
+
+* [Jack编译器](./project/11/JackCompiler/src/jackcompiler/)
+    * [CompilationEngine.java](./project/11/JackCompiler/src/jackcompiler/CompilationEngine.java) 语法分析引擎
+    * [JackTokenizer.java](./project/11/JackCompiler/src/jackcompiler/JackTokenizer.java) 字元转换器
+    * [SymbolTable.java](./project/11/JackCompiler/src/jackcompiler/SymbolTable.java) 符号表
+    * [VMWriter.java](./project/11/JackCompiler/src/jackcompiler/VMWriter.java) VM命令输出器
+    * [JackCompiler.java](./project/11/JackCompiler/src/jackcompiler/JackCompiler.java) 编译器入口
+
+* [测试单元](./project/10/)
+    * Seven 
+    * ConvertToBin 
+    * Square [构造方法 方法 成员字段 方法调用]
+    * Average [数组和字符串]
+    * Pong [静态变量]
+    * ComplexArrays [复杂数组引用和表达式]
