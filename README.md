@@ -2,6 +2,8 @@
 
 > [官网](https://www.nand2tetris.org/ "") [coursera视频](https://www.coursera.org/learn/build-a-computer "") [工具包](https://www.nand2tetris.org/software "") [参考@ReionChan](https://reionchan.github.io/2016/05/28/nand2tetris-zh_CN/ "")
 
+> 该课程让大家了解现代计算机如何从基本门电路开始慢慢被构建。全书以项目为单元，逐一完成这些项目，即可构造出一个16位的Hack计算机硬件，在此硬件之上，开发出汇编编译器、堆栈式虚拟机，针对虚拟机设计出高级编程语言Jack，同时开发出相应的Jack语言编译器。
+
 ## 目录
 
 * 硬件体系--> [布尔逻辑](#布尔逻辑) [布尔算术](#布尔算术) [时序逻辑](#时序逻辑) [机器语言](#机器语言) [计算机体系结构](#计算机体系结构)
